@@ -1,0 +1,32 @@
+{
+  "name": "testpivot",
+  "displayName": "testpivot",
+  "description": "Plays a random sound when you save a file with errors.",
+  "version": "0.0.1",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "activationEvents": [
+    "onCommand:extension.playErrorJam",
+    "onSave"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.playErrorJam",
+        "title": "testpivot"
+      }
+    ]
+  },
+  "scripts": {
+    "postinstall": "node ./src/postinstall.js"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "node-aplay": "^1.0.3",
+    "node-mp3-player": "^1.0.3",
+    "play-sound": "^1.1.6"
+  }
+}
