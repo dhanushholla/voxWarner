@@ -12,6 +12,7 @@ Welcome to **VoxWarner**, the VSCode extension that transforms your coding error
 
 1. **Download**: [Get VoxWarner](#) from the VSCode Marketplace(future scope) ... 
 2. **Install**: Open VSCode, go to Extensions, search for "VoxWarner," and hit **Install**. 🛠️
+
    As now git clone repo-url and make type "vsce package"  and install from vsix option in vscode select the .vsix file.
 4. **Configure**: Place your favorite funny clips in the `audios` folder in your workspace. 🎶
 
